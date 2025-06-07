@@ -1,0 +1,11 @@
+#heading2 {
+	color: green;
+}
+
+h2.heading2 {
+	color: orange;
+}
+
+h2 {
+	color: violet;
+}

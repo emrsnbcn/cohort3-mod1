@@ -1,0 +1,29 @@
+.grid-container {
+	display: grid;
+	/* pixels, auto, fr (fraction unit) */
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 200px 250px;
+	/* column-gap: 15px;
+	row-gap: 10px; */
+	gap: 10px 15px;
+}
+
+/* I want to target all div elements that is inside a class called grid-container */
+.grid-container div {
+	border: 2px solid black;
+	background-color: lightgrey;
+	font-size: 36px;
+	text-align: center;
+}
+
+.item1 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+
+.item3 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}

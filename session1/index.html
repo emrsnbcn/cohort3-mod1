@@ -1,0 +1,171 @@
+<html>
+	<head>
+		<!-- This is the information about the website -->
+		<title>My First Website</title>
+	</head>
+
+	<body>
+		<!-- This is a comment it wont show to the page. -->
+		<h1>1 Hello World!</h1>
+		<h2>2 Hello World!</h2>
+		<h3>3 Hello World!</h3>
+		<h4>4 Hello World!</h4>
+		<h5>5 Hello World!</h5>
+		<h6>6 Hello World!</h6>
+
+		<!-- 
+		BLOCK ELEMENTS are displayed on top of one another (starts on a new line)
+		h1 - h6
+		ol (ordered list)
+		ul (unordered list)
+		li (list item)
+		p (paragraph)
+		table
+		main
+		section
+		div
+		hr
+		footer 
+		nav
+
+		INLINE LEMENTS are displayed beside one another (it doesnt start on a new line)
+		a (anchor tag)
+		img (image tag)
+		button
+		input
+		small
+		textarea
+		span
+		-->
+
+		<p>
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+			veritatis neque maxime minima ad eaque in beatae debitis consequatur
+			vitae recusandae odit possimus aperiam, magni omnis tempora adipisci
+			iusto expedita!
+		</p>
+
+		<ol>
+			<li>Shoes</li>
+			<li>Bags</li>
+			<li>Clothes</li>
+		</ol>
+
+		<ul>
+			<li>Table</li>
+			<li>Ladder</li>
+			<li>Chair</li>
+		</ul>
+
+		<!-- 
+			1. Skills
+				. HTML
+				. CSS 
+				. JavaScript
+			2. Food
+				. Nasi Lemak
+				. Chicken Rice
+				. Nasi Kandar
+			3. Sports
+				. Basketball
+				. Golf
+				. Boxing
+		-->
+
+		<ol>
+			<li>
+				Skills
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+				</ul>
+			</li>
+			<li>
+				Food
+				<ul>
+					<li>Chicken Rice</li>
+					<li>Nasi Lemak</li>
+					<li>Nasi Kandar</li>
+				</ul>
+			</li>
+			<li>
+				Sports
+				<ul>
+					<li>Basketball</li>
+					<li>Boxing</li>
+					<li>Golf</li>
+				</ul>
+			</li>
+		</ol>
+
+		<table border="2">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Price</th>
+					<th>Quantity</th>
+					<th>Subtotal</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Table</td>
+					<td>50</td>
+					<td>2</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>Ladder</td>
+					<td>100</td>
+					<td>2</td>
+					<td>200</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="2">Total:</td>
+					<td>4</td>
+					<td>300</td>
+				</tr>
+			</tfoot>
+		</table>
+
+		<!-- anchor tag / links -->
+		<a href="https://google.com" target="_blank">Go to google</a>
+		<a href="https://youtube.com">Go to youtube</a>
+
+		<!-- 
+			image tag src='link to the image'  alt="description"
+			some html tags are self enclosing.
+		-->
+		<img
+			src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRW3DbLSs35ZcqC6Hww2orp9yVzy6bM-3HOivcKqX1tryPRH_xnGQKIxmkcH77dI_jT6p7s2JeY9jBwHX2X78-L4WxDR4PXHJk2rTsj9ZQDfQ"
+			alt="Malaysian Tiger" />
+		<img
+			src="./vscode.png"
+			alt="Visual Studio Code Logo"
+			width="60"
+			height="60" />
+		<br />
+		<hr />
+
+		<!-- Use the logos or images of youtube, google, and visual studio code and redirect it to their own website. all logos when clicked must open a new tab. -->
+
+		<a href="https://google.com" target="_blank">
+			<img
+				src="google-logo.webp"
+				alt="Google Logo"
+				width="60"
+				height="60" />
+		</a>
+
+		<a href="https://youtube.com" target="_blank">
+			<img src="youtube.webp" alt="Youtube Logo" width="60" height="60" />
+		</a>
+
+		<a href="https://code.visualstudio.com" target="_blank">
+			<img src="vscode.png" alt="VSCode Logo" width="60" height="60" />
+		</a>
+	</body>
+</html>
