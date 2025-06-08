@@ -1,0 +1,60 @@
+header {
+	background-color: lightgrey;
+	height: 100vh; /*viewport height */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-container div {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.first {
+	background-color: grey;
+	width: 50%;
+}
+
+.second {
+	background-color: tomato;
+	width: 30%;
+}
+
+.third {
+	background-color: aliceblue;
+	width: 50%;
+}
+
+.d-flex {
+	justify-content: center;
+	display: flex;
+	column-gap: 20px;
+}
+
+.d-flex div {
+	border: 1px solid lightgrey;
+	width: 20%;
+}
+
+.d-flex div img {
+	width: 100%;
+}
+
+.d-flex div a {
+	text-decoration: none;
+	color: white;
+	background-color: #0067b8;
+	/* display: inline-block; */
+	/* retains the inline element but the block css properties will work. */
+	padding: 10px 5px;
+}

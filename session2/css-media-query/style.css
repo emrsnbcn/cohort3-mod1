@@ -1,0 +1,36 @@
+/* min-width - we are targetting elements going up ^ */
+/* max-width - we are targetting elements going down */
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 15px;
+}
+
+.child img {
+	width: 100%;
+}
+
+@media (min-width: 767px) {
+	.child {
+		width: 46%;
+	}
+}
+
+/* I want to target elements at 991px and above! */
+@media (min-width: 991px) {
+	body {
+		background-color: tomato;
+	}
+	.child {
+		width: 20%;
+	}
+}
+
+/* I want to taget elements at 576px and below! */
+@media (max-width: 576px) {
+	body {
+		background-color: gold;
+	}
+}
